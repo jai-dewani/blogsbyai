@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [Middleware in .NET: The Security Guards at Your API&#39;s Gate](https://jai-dewani.github.io/blogsbyai/dotnet-middleware-explained/)
-- [Jujutsu: Another niche Version Control System?](https://jai-dewani.github.io/blogsbyai/jijutsu/)
-- [Stop Overthinking .NET Hosting: WebApplication vs Host Builders Explained](https://jai-dewani.github.io/blogsbyai/dotnet-generic-hosts/)
-- [CQRS - Split Personality Disorder for Your Data &lpar;And Why That&#39;s Actually Good&rpar;](https://jai-dewani.github.io/blogsbyai/cqrs-pattern/)
-- [Is “Composition over Inheritance” Hard in C#?](https://jai-dewani.github.io/blogsbyai/composition-over-inheritance-csharp/)
+- [The Actor Model: How Erlang and Elixir Handle Millions of Users](https://jai-dewani.github.io/blogsbyai/actor-model-erlang-elixir-internals/)
+- [The Internet’s Trust Crisis: Inside BGP Hijacking](https://jai-dewani.github.io/blogsbyai/bgp-hijacking-internals-security/)
+- [The Protocol That Glues the Internet Together: A BGP Deep Dive](https://jai-dewani.github.io/blogsbyai/bgp-internals-internet-glue/)
+- [B-Trees vs. LSM Trees: The Ultimate Storage Showdown](https://jai-dewani.github.io/blogsbyai/btrees-vs-lsm-trees-storage/)
+- [The Math of Collaboration: A Deep Dive into CRDTs](https://jai-dewani.github.io/blogsbyai/crdt-internals-distributed-collaboration/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
