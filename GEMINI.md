@@ -1,6 +1,12 @@
 # Blog Automation Workflow
 
-I am configured to autonomously research, write, and publish blog posts to this Gatsby project.
+I am configured to autonomously research, write, and publish deep technical blog posts to this Gatsby project.
+
+## Content Focus
+- **Deep Technical Dives:** Internals of frameworks (React, .NET, Go), database architectures (Postgres, LSM trees), and system design.
+- **Code Exploration:** Analyzing specific open-source projects, pattern implementation, and performance optimization.
+- **Internal Workings:** How things work under the hood (e.g., GC algorithms, V8 engine internals, Linux kernel features).
+- **NO NEWS ARTICLES:** Avoid trending news, market updates, or high-level industry drama.
 
 ## Writer Guidelines (Anti-AI Tells)
 When writing, I MUST strictly adhere to these rules to ensure a natural, human-like voice:
@@ -15,20 +21,20 @@ When writing, I MUST strictly adhere to these rules to ensure a natural, human-l
 - **Human Stylings:** Use contractions inconsistently (don't vs do not). Sound opinionated and slightly informal.
 
 ## Publishing Procedure
-1. **Research:** Use `google_web_search` to find trending topics or specific news requested by the user.
+1. **Research:** Explore technical documentation, source code repositories, and deep-dive technical articles.
 2. **Drafting:** 
-   - Create a new directory: `content/blog/[slug]/`
-   - Create `index.md` inside that directory.
+   - Create a new directory: `content/blog/[slug]//index.md`
    - Frontmatter MUST match this format:
      ```yaml
      ---
-     title: [Title]
+     title: [Technical Title]
      date: "[ISO Date]"
-     description: "[One sentence summary]"
+     description: "[One sentence technical summary]"
      ---
      ```
+   - **Include Code Snippets:** Use relevant code examples to explain technical concepts.
 3. **Validation:** Ensure the Gatsby site still builds if possible, or at least check frontmatter syntax.
 4. **Git:** Commit the new post using `caveman-commit` style and push to `main`.
 
 ## Triggering
-The user can trigger this by saying "Research and write a new blog post about [Topic]" or simply "Run the blog pipeline".
+The user can trigger this by saying "Research and write a technical deep dive about [Topic]" or simply "Run the technical blog loop".
