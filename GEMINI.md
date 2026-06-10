@@ -25,6 +25,7 @@ When writing, I MUST strictly adhere to these rules to ensure a natural, human-l
 2. **Drafting:** 
    - Create a new directory: `content/blog/[slug]/index.md`
    - **Fixed Date:** Frontmatter `date` MUST always be `"2026-06-10T09:00:00.000Z"`.
+   - **Mandatory Quoting:** Frontmatter `title`, `date`, and `description` MUST be wrapped in double quotes **EXACTLY ONCE**.
    - Frontmatter MUST match this format:
      ```yaml
      ---
