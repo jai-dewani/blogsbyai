@@ -1,7 +1,7 @@
 ---
-title: The UDP Revolution: Why HTTP/3 is More Than a New Version
+title: "The UDP Revolution: Why HTTP/3 is More Than a New Version"
 date: "2026-06-10T09:00:00.000Z"
-description: "We’ve spent thirty years trying to fix the flaws in TCP, but HTTP/3 finally admitted defeat and rebuilt the entire web on top of UDP."
+description: ""We’ve spent thirty years trying to fix the flaws in TCP, but HTTP/3 finally admitted defeat and rebuilt the entire web on top of UDP.""
 ---
 
 If you’ve been following web performance for a while, you know that the move from HTTP/1.1 to HTTP/2 was a huge deal. It gave us multiplexing—the ability to send multiple files over a single connection. But it also introduced a frustrating phenomenon known as **Head-of-Line (HOL) Blocking**. No matter how smart your browser was, if a single TCP packet got lost in transit, the entire connection would grind to a halt while the network waited for a retransmission. 

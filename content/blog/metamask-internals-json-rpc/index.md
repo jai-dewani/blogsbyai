@@ -1,7 +1,7 @@
 ---
-title: The Web3 Bridge: Inside MetaMask and the JSON-RPC Engine
+title: "The Web3 Bridge: Inside MetaMask and the JSON-RPC Engine"
 date: "2026-06-10T09:00:00.000Z"
-description: "How does a standard web browser talk to a decentralized blockchain? The answer lies in MetaMask's internal multiplexer—a complex relay of message streams, injected scripts, and JSON-RPC middleware."
+description: ""How does a standard web browser talk to a decentralized blockchain? The answer lies in MetaMask's internal multiplexer—a complex relay of message streams, injected scripts, and JSON-RPC middleware.""
 ---
 
 If you’ve ever built a Dapp (Decentralized Application), you’ve relied on a simple global object: `window.ethereum`. You call `ethereum.request({ method: 'eth_sendTransaction' })`, and like magic, a popup appears, you sign the transaction, and the blockchain updates. 

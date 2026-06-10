@@ -1,7 +1,7 @@
 ---
-title: The Actor Model: How Erlang and Elixir Handle Millions of Users
+title: "The Actor Model: How Erlang and Elixir Handle Millions of Users"
 date: "2026-06-10T09:00:00.000Z"
-description: "Most runtimes try to prevent failure with complex logic. Erlang and Elixir take the opposite approach: they assume everything will fail, and they use the Actor Model to make sure it doesn't matter."
+description: ""Most runtimes try to prevent failure with complex logic. Erlang and Elixir take the opposite approach: they assume everything will fail, and they use the Actor Model to make sure it doesn't matter.""
 ---
 
 If you’ve ever wondered how WhatsApp manages to handle billions of messages with a relatively tiny engineering team, the answer is **The Actor Model**, implemented via the **BEAM virtual machine** (the engine behind Erlang and Elixir). 

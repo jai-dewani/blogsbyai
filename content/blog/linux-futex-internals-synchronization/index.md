@@ -1,7 +1,7 @@
 ---
-title: The Fast Path: Inside the Linux Futex
+title: "The Fast Path: Inside the Linux Futex"
 date: "2026-06-10T09:00:00.000Z"
-description: "Why are Linux threads so fast? The answer lies in the futex—a synchronization primitive that avoids the kernel for 99% of its life, only calling for help when there’s an actual fight over a lock."
+description: ""Why are Linux threads so fast? The answer lies in the futex—a synchronization primitive that avoids the kernel for 99% of its life, only calling for help when there’s an actual fight over a lock.""
 ---
 
 If you’ve ever written multi-threaded code in C++, Rust, or Go on Linux, you’ve used a **Futex (Fast User-Space Mutex)**. It is the silent workhorse behind every `pthread_mutex_t`, every `std::sync::Mutex`, and every Go channel. 

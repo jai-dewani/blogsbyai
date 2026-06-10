@@ -1,7 +1,7 @@
 ---
-title: The Flight Protocol: Inside the RSC Wire Format
+title: "The Flight Protocol: Inside the RSC Wire Format"
 date: "2026-06-10T09:00:00.000Z"
-description: "React Server Components (RSC) are not just about server-side rendering; they are a sophisticated data-streaming architecture that uses a specialized, line-based format to move the virtual DOM down the wire."
+description: ""React Server Components (RSC) are not just about server-side rendering; they are a sophisticated data-streaming architecture that uses a specialized, line-based format to move the virtual DOM down the wire.""
 ---
 
 If you’ve opened the Network tab while using a modern Next.js or React app, you’ve probably seen a weird response that looks like a mix of JSON and gibberish. It’s not HTML, and it’s not standard JSON. This is the **Flight Protocol**—the internal wire format for **React Server Components (RSC)**.

@@ -1,7 +1,7 @@
 ---
-title: The Merkle Tree: The Mathematical Backbone of Digital Trust
+title: "The Merkle Tree: The Mathematical Backbone of Digital Trust"
 date: "2026-06-10T09:00:00.000Z"
-description: "How can you verify that a 10TB dataset hasn't been tampered with by downloading just a few hundred bytes? The answer lies in the elegant, hierarchical logic of the Merkle Tree."
+description: ""How can you verify that a 10TB dataset hasn't been tampered with by downloading just a few hundred bytes? The answer lies in the elegant, hierarchical logic of the Merkle Tree.""
 ---
 
 If you’ve used Git, Bitcoin, or a modern file system like ZFS, you’ve relied on a **Merkle Tree**. Named after its inventor, Ralph Merkle, this data structure is the fundamental primitive that allows us to build secure, distributed systems that can handle massive amounts of data with minimal overhead. 

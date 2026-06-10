@@ -1,7 +1,7 @@
 ---
-title: One Round-Trip to Trust: The Magic of TLS 1.3
+title: "One Round-Trip to Trust: The Magic of TLS 1.3"
 date: "2026-06-10T09:00:00.000Z"
-description: "We’ve spent thirty years securing the web, but TLS 1.3 is the first time we’ve managed to make it faster and safer at the exact same time."
+description: ""We’ve spent thirty years securing the web, but TLS 1.3 is the first time we’ve managed to make it faster and safer at the exact same time.""
 ---
 
 If you’ve ever noticed that websites today feel slightly "snappier" than they did five years ago, you’re likely seeing the impact of **TLS 1.3**. Since the early 90s, the **Transport Layer Security (TLS)** protocol has been the invisible guard at the gate of every website. But for most of its history, it was slow, complex, and filled with legacy "baggage."

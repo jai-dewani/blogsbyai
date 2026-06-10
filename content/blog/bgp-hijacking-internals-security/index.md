@@ -1,7 +1,7 @@
 ---
-title: The Internet’s Trust Crisis: Inside BGP Hijacking
+title: "The Internet’s Trust Crisis: Inside BGP Hijacking"
 date: "2026-06-10T09:00:00.000Z"
-description: "The Border Gateway Protocol (BGP) was built on a handshake and a promise. Today, that trust is a global security liability that allows single actors to redirect the entire world's traffic."
+description: ""The Border Gateway Protocol (BGP) was built on a handshake and a promise. Today, that trust is a global security liability that allows single actors to redirect the entire world's traffic.""
 ---
 
 If you’ve read our earlier deep dive into **BGP Internals**, you know that BGP is the glue of the internet. It is a protocol that manages the complex, multi-billion dollar connections between thousands of independent networks. But there is a dark side to BGP: it is fundamentally built on trust. By default, a BGP router believes any advertisement it receives from a neighbor. 

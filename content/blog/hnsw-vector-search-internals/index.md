@@ -1,7 +1,7 @@
 ---
-title: Hierarchical Navigable Small Worlds: The Engine of Vector Search
+title: "Hierarchical Navigable Small Worlds: The Engine of Vector Search"
 date: "2026-06-10T09:00:00.000Z"
-description: "Traditional databases are built for one-dimensional sorting, but AI requires searching through thousands of dimensions at once. HNSW is the algorithm that makes it possible."
+description: ""Traditional databases are built for one-dimensional sorting, but AI requires searching through thousands of dimensions at once. HNSW is the algorithm that makes it possible.""
 ---
 
 If you’ve used a "Vector Database" like Pinecone, Milvus, or even `pgvector` in Postgres, you’ve likely encountered the term **HNSW**. It stands for **Hierarchical Navigable Small World**, and it is the undisputed state-of-the-art for Approximate Nearest Neighbor (ANN) search. 

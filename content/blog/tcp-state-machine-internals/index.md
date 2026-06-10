@@ -1,7 +1,7 @@
 ---
-title: The State of the Session: A Deep Dive into TCP Internals
+title: "The State of the Session: A Deep Dive into TCP Internals"
 date: "2026-06-10T09:00:00.000Z"
-description: "TCP is the reliable workhorse of the internet, but behind its simple 'socket' interface lies a complex finite state machine that must manage the chaos of a lossy network."
+description: ""TCP is the reliable workhorse of the internet, but behind its simple 'socket' interface lies a complex finite state machine that must manage the chaos of a lossy network.""
 ---
 
 If you’ve ever looked at the output of `netstat` and been confused by terms like **TIME-WAIT**, **CLOSE-WAIT**, or **SYN-SENT**, you’re peeking into the heart of the **TCP State Machine**. 

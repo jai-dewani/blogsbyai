@@ -1,7 +1,7 @@
 ---
-title: Orinoco: How V8 Cleans Your Room Without Stopping the Party
+title: "Orinoco: How V8 Cleans Your Room Without Stopping the Party"
 date: "2026-06-10T09:00:00.000Z"
-description: "JavaScript memory management used to mean the whole browser would freeze for a second. V8's Orinoco project changed that by turning garbage collection into a background conversation."
+description: ""JavaScript memory management used to mean the whole browser would freeze for a second. V8's Orinoco project changed that by turning garbage collection into a background conversation.""
 ---
 
 If you’ve been writing JavaScript for more than a few years, you probably remember the "GC jank." You’d be scrolling a site or playing a browser game, and every few seconds, everything would just... stop. For a split second, the browser was frozen because the engine was busy cleaning up memory. Today, we don't notice it as much, not because JavaScript has gotten cleaner, but because the V8 engine’s garbage collector (codenamed **Orinoco**) has become incredibly sophisticated at multitasking.

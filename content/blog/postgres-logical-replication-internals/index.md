@@ -1,7 +1,7 @@
 ---
-title: Decoding the Stream: How Postgres Logical Replication Powers CDC
+title: "Decoding the Stream: How Postgres Logical Replication Powers CDC"
 date: "2026-06-10T09:00:00.000Z"
-description: "Logical replication is the key to selective data distribution and Change Data Capture (CDC), allowing you to transform raw database logs into a real-time stream of high-level business events."
+description: ""Logical replication is the key to selective data distribution and Change Data Capture (CDC), allowing you to transform raw database logs into a real-time stream of high-level business events.""
 ---
 
 If you’ve ever used a tool like Debezium to stream database changes into Kafka, or if you’ve synced specific tables between two different Postgres versions, you’ve used **Logical Replication**. 

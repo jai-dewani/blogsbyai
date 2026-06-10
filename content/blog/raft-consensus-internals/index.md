@@ -1,7 +1,7 @@
 ---
-title: Raft Consensus: How Computers Agree on the Truth
+title: "Raft Consensus: How Computers Agree on the Truth"
 date: "2026-06-10T09:00:00.000Z"
-description: "agreement is easy when you’re a single machine, but when you’re a distributed cluster, reaching a consensus is a high-stakes game of politics and logic."
+description: ""agreement is easy when you’re a single machine, but when you’re a distributed cluster, reaching a consensus is a high-stakes game of politics and logic.""
 ---
 
 In a single-server world, consistency is easy. You write a value to a database, and the next person to read it gets that value. But we don't live in a single-server world anymore. We live in a world of distributed clusters where any node can crash, any network cable can be snipped, and any data center can lose power at any time.

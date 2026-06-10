@@ -1,7 +1,7 @@
 ---
-title: The GMP Model: How the Go Scheduler Masters Concurrency
+title: "The GMP Model: How the Go Scheduler Masters Concurrency"
 date: "2026-06-10T09:00:00.000Z"
-description: "Go can handle millions of goroutines on just a few CPU cores. The secret is the GMP model—a user-space scheduling masterpiece that turns blocking code into a high-speed game of work-stealing."
+description: ""Go can handle millions of goroutines on just a few CPU cores. The secret is the GMP model—a user-space scheduling masterpiece that turns blocking code into a high-speed game of work-stealing.""
 ---
 
 If you’ve ever wondered why a Go program can spawn a million goroutines without breaking a sweat while a Java or Python program would crawl to a halt at a few thousand threads, you’re looking at the brilliance of the **Go Scheduler**. 

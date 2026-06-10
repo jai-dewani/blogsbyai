@@ -1,7 +1,7 @@
 ---
-title: Product Quantization: Compressing the Vector Universe
+title: "Product Quantization: Compressing the Vector Universe"
 date: "2026-06-10T09:00:00.000Z"
-description: "How do you search through a billion vectors without spending a fortune on RAM? The answer is Product Quantization—a lossy compression technique that turns high-dimensional math into a high-speed lookup table."
+description: ""How do you search through a billion vectors without spending a fortune on RAM? The answer is Product Quantization—a lossy compression technique that turns high-dimensional math into a high-speed lookup table.""
 ---
 
 If you’ve been following our series on **Vector Databases** and **HNSW**, you know that high-dimensional search is hard. A single 1,536-dimensional vector (like those from OpenAI) takes up about 6KB of memory. If you have a billion of them, you’re looking at **6 terabytes of RAM** just to keep the raw data in memory. For most companies, that’s a non-starter.

@@ -1,7 +1,7 @@
 ---
-title: How V8 Uses Your Mistakes to Make JavaScript Fast
+title: "How V8 Uses Your Mistakes to Make JavaScript Fast"
 date: "2026-06-10T09:00:00.000Z"
-description: "JavaScript is a mess of dynamic types, but the V8 engine manages to make it run like C++ by assuming you're more predictable than you actually are."
+description: ""JavaScript is a mess of dynamic types, but the V8 engine manages to make it run like C++ by assuming you're more predictable than you actually are.""
 ---
 
 JavaScript is a complete nightmare for a compiler. Everything can change at any moment. You can take a variable that was an integer, turn it into a string, then add it to an object, and finally pass it into a function that was expecting an array. In a traditional compiled language like C++ or Java, that kind of behavior would be caught at compile time as a fatal error. But in the browser, it just works. 

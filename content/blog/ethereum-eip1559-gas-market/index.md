@@ -1,7 +1,7 @@
 ---
-title: The Burn and the Tip: Inside Ethereum’s EIP-1559
+title: "The Burn and the Tip: Inside Ethereum’s EIP-1559"
 date: "2026-06-10T09:00:00.000Z"
-description: "Ethereum fundamentally changed its economic engine with EIP-1559, moving from a chaotic auction house to a regulated market with elastic blocks and a mandatory 'burn' mechanism."
+description: ""Ethereum fundamentally changed its economic engine with EIP-1559, moving from a chaotic auction house to a regulated market with elastic blocks and a mandatory 'burn' mechanism.""
 ---
 
 If you’ve sent an Ethereum transaction in the last few years, you’ve noticed that the fee estimation is much more predictable than it used to be. You no longer have to guess how much to pay to get into the next block. This predictability is the result of **EIP-1559**, one of the most ambitious and successful upgrades in the history of decentralized systems. 

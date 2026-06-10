@@ -1,7 +1,7 @@
 ---
-title: Speed, Simplicity, and SDS: The Redis Internal Masterclass
+title: "Speed, Simplicity, and SDS: The Redis Internal Masterclass"
 date: "2026-06-10T09:00:00.000Z"
-description: "Redis is often called 'just a cache,' but its internal data structures and single-threaded event loop are a masterclass in high-performance systems engineering."
+description: ""Redis is often called 'just a cache,' but its internal data structures and single-threaded event loop are a masterclass in high-performance systems engineering.""
 ---
 
 When people talk about Redis, they usually focus on how fast it is. They quote benchmarks of millions of operations per second and move on. But the "why" behind that speed is where things get interesting. Redis doesn't just run fast; it’s designed from the ground up to minimize every possible source of latency, from locking overhead to memory fragmentation. 

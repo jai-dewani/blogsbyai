@@ -1,7 +1,7 @@
 ---
-title: From Reset Vector to systemd: The Linux Boot Odyssey
+title: "From Reset Vector to systemd: The Linux Boot Odyssey"
 date: "2026-06-10T09:00:00.000Z"
-description: "The Linux boot process is a high-stakes relay race across multiple CPU modes, where each stage hands off the baton to a more sophisticated abstraction until the operating system is fully alive."
+description: ""The Linux boot process is a high-stakes relay race across multiple CPU modes, where each stage hands off the baton to a more sophisticated abstraction until the operating system is fully alive.""
 ---
 
 When you press the power button on your computer, you aren't just turning on a machine; you’re starting a journey through forty years of computing history. The Linux boot process is a meticulously orchestrated sequence that takes the CPU from its most primitive state (16-bit Real Mode) to a fully functional, multi-threaded, 64-bit environment. 

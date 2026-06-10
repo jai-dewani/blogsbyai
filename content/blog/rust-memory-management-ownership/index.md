@@ -1,7 +1,7 @@
 ---
-title: Why Rust Doesn’t Need a Garbage Collector
+title: "Why Rust Doesn’t Need a Garbage Collector"
 date: "2026-06-10T09:00:00.000Z"
-description: "Most languages trade control for safety or vice-versa, but Rust managed to find a middle ground where the compiler manages your memory for you without a runtime."
+description: ""Most languages trade control for safety or vice-versa, but Rust managed to find a middle ground where the compiler manages your memory for you without a runtime.""
 ---
 
 If you’ve spent any time in the world of C or C++, you know that memory management is a constant source of anxiety. One wrong pointer, one forgotten `free()` call, and you’ve got a memory leak or a segfault that takes three days to debug. It's the reason why "memory safety" is a billion-dollar problem in cybersecurity. 

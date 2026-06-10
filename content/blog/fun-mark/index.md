@@ -1,7 +1,7 @@
 ---
-title: Benchmarking python functions using funmark and plot comparision results
+title: "Benchmarking python functions using funmark and plot comparision results"
 date: "2020-02-22T22:12:03.284Z"
-description: "I have been working this pypi library called funmark which allows anyone to calculate runtime and memory usage of their functions and plot these results comparing their performance with other similar functions"
+description: ""I have been working this pypi library called funmark which allows anyone to calculate runtime and memory usage of their functions and plot these results comparing their performance with other similar functions""
 ---
 
 ![funmark](images/funmark.png)

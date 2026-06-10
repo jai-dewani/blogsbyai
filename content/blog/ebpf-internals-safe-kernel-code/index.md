@@ -1,7 +1,7 @@
 ---
-title: The Linux Kernel is Now Programmable: A Deep Dive into eBPF
+title: "The Linux Kernel is Now Programmable: A Deep Dive into eBPF"
 date: "2026-06-10T09:00:00.000Z"
-description: "eBPF is the most significant change to the Linux kernel in twenty years, allowing us to run custom code in the heart of the operating system without ever worrying about a kernel panic."
+description: ""eBPF is the most significant change to the Linux kernel in twenty years, allowing us to run custom code in the heart of the operating system without ever worrying about a kernel panic.""
 ---
 
 For decades, the Linux kernel was a monolithic, sacred space. If you wanted to add a new feature—a faster networking protocol or a more detailed observability tool—you had two choices: wait years for your code to be upstreamed, or maintain a custom kernel module that would likely crash your system at the first sign of a bug. 

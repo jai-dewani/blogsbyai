@@ -1,7 +1,7 @@
 ---
-title: Why Your Database Writes to a Log Before It Writes to a Table
+title: "Why Your Database Writes to a Log Before It Writes to a Table"
 date: "2026-06-10T09:00:00.000Z"
-description: "Traditional databases like to update things in place, but high-performance systems like RocksDB and Cassandra treat your data like a never-ending diary."
+description: ""Traditional databases like to update things in place, but high-performance systems like RocksDB and Cassandra treat your data like a never-ending diary.""
 ---
 
 If you’ve ever wondered how a database can handle millions of writes per second without breaking a sweat, the answer usually involves a data structure called a Log-Structured Merge-Tree (LSM Tree). Most of us grew up with B-Trees, which are the industry standard for traditional relational databases like MySQL or Postgres. In a B-Tree, the database finds a specific spot on the disk and updates it "in place." 

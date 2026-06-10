@@ -1,7 +1,7 @@
 ---
-title: B-Trees vs. LSM Trees: The Ultimate Storage Showdown
+title: "B-Trees vs. LSM Trees: The Ultimate Storage Showdown"
 date: "2026-06-10T09:00:00.000Z"
-description: "Choosing between a B-Tree and an LSM Tree isn't just about speed; it's a fundamental trade-off between read latency, write throughput, and the longevity of your hardware."
+description: ""Choosing between a B-Tree and an LSM Tree isn't just about speed; it's a fundamental trade-off between read latency, write throughput, and the longevity of your hardware.""
 ---
 
 If you’re building a database, you eventually have to answer one question: how do you store the data on the disk? For thirty years, the answer was almost always a **B-Tree**. It’s the engine behind PostgreSQL, MySQL, and Oracle. But in the last decade, a new contender called the **Log-Structured Merge-Tree (LSM Tree)** has taken over the world of high-throughput distributed systems like Cassandra, RocksDB, and Bigtable.

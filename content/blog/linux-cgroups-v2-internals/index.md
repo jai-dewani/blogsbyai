@@ -1,7 +1,7 @@
 ---
-title: The Unified Tree: Inside the Cgroups v2 Revolution
+title: "The Unified Tree: Inside the Cgroups v2 Revolution"
 date: "2026-06-10T09:00:00.000Z"
-description: "Control Groups (cgroups) are the muscles of the container world. But for a decade, those muscles were uncoordinated and fragmented. Cgroups v2 finally fixed the hierarchy, giving the kernel a single, unified brain for resource management."
+description: ""Control Groups (cgroups) are the muscles of the container world. But for a decade, those muscles were uncoordinated and fragmented. Cgroups v2 finally fixed the hierarchy, giving the kernel a single, unified brain for resource management.""
 ---
 
 If you’ve read our earlier deep dive into **Namespaces and Cgroups**, you know that containers are an illusion created by the Linux kernel. Namespaces control what a process can *see*, while Cgroups control what it can *consume*. But for nearly ten years, the Cgroups implementation (now known as v1) was a source of constant frustration for kernel engineers. It was fragmented, inconsistent, and mathematically impossible to tune correctly.

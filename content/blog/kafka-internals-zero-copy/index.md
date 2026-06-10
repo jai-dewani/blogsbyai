@@ -1,7 +1,7 @@
 ---
-title: The Zero-Copy Secret: How Kafka Moves Data at Wire Speed
+title: "The Zero-Copy Secret: How Kafka Moves Data at Wire Speed"
 date: "2026-06-10T09:00:00.000Z"
-description: "Apache Kafka doesn't just run fast; it cheats by letting the operating system kernel do all the heavy lifting, bypassing the JVM entirely for its most critical tasks."
+description: ""Apache Kafka doesn't just run fast; it cheats by letting the operating system kernel do all the heavy lifting, bypassing the JVM entirely for its most critical tasks.""
 ---
 
 When engineers talk about high-throughput systems, Apache Kafka is usually the first name mentioned. It’s a beast that can handle millions of events per second on relatively modest hardware. But if you look at the source code, you won't find a proprietary, high-speed networking stack or a custom memory manager. Instead, you'll find a system that is obsessively designed to **work with the operating system instead of against it.**

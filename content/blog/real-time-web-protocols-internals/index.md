@@ -1,7 +1,7 @@
 ---
-title: The Real-Time Dilemma: WebSockets vs. SSE vs. HTTP/2 Push
+title: "The Real-Time Dilemma: WebSockets vs. SSE vs. HTTP/2 Push"
 date: "2026-06-10T09:00:00.000Z"
-description: "Choosing a real-time protocol is no longer just about speed. It’s a trade-off between the bi-directional power of WebSockets, the simplicity of SSE, and the hard lessons learned from the failure of HTTP/2 Push."
+description: ""Choosing a real-time protocol is no longer just about speed. It’s a trade-off between the bi-directional power of WebSockets, the simplicity of SSE, and the hard lessons learned from the failure of HTTP/2 Push.""
 ---
 
 If you’ve ever built a chat app, a live dashboard, or a collaborative editor, you’ve faced the same technical hurdle: how do you get the server to talk to the client without waiting for a request? For twenty years, we relied on "Long Polling" (a hack where the client just waits for the server to eventually answer). But today, we have three distinct architectures for real-time data, and each one makes a different bet on the future of the web.

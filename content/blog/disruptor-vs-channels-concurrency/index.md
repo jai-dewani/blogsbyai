@@ -1,7 +1,7 @@
 ---
-title: The Concurrency Showdown: LMAX Disruptor vs. Go Channels
+title: "The Concurrency Showdown: LMAX Disruptor vs. Go Channels"
 date: "2026-06-10T09:00:00.000Z"
-description: "Choosing between a lock-free ring buffer and a lock-based channel isn't just a matter of syntax. It’s a fundamental choice between developer ergonomics and the brutal mechanical reality of the CPU cache."
+description: ""Choosing between a lock-free ring buffer and a lock-based channel isn't just a matter of syntax. It’s a fundamental choice between developer ergonomics and the brutal mechanical reality of the CPU cache.""
 ---
 
 If you’re building a concurrent system in Go or Java, you have a choice. You can use the idiomatic, built-in concurrency primitives (like **Go Channels** or Java’s `ArrayBlockingQueue`), or you can reach for a specialized, high-performance library like the **LMAX Disruptor**. 

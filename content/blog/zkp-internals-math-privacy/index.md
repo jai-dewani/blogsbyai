@@ -1,7 +1,7 @@
 ---
-title: Proving the Truth Without the Data: A Deep Dive into Zero-Knowledge Proofs
+title: "Proving the Truth Without the Data: A Deep Dive into Zero-Knowledge Proofs"
 date: "2026-06-10T09:00:00.000Z"
-description: "Zero-Knowledge Proofs (ZKP) are the ultimate cryptographic paradox: they allow you to prove that a statement is true without revealing a single piece of information beyond the validity of the statement itself."
+description: ""Zero-Knowledge Proofs (ZKP) are the ultimate cryptographic paradox: they allow you to prove that a statement is true without revealing a single piece of information beyond the validity of the statement itself.""
 ---
 
 Imagine you want to prove to a bank that you have more than $100,000 in your account, but you don't want the bank to see your actual balance, your transaction history, or even your account number. In the world of traditional computing, this is impossible. You either show the data or you don't. 

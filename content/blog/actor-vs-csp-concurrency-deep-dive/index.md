@@ -1,7 +1,7 @@
 ---
-title: The Concurrency Philosophies: The Actor Model vs. CSP
+title: "The Concurrency Philosophies: The Actor Model vs. CSP"
 date: "2026-06-10T09:00:00.000Z"
-description: "Choosing between Erlang's Actors and Go's Channels isn't just about syntax; it's a choice between a 'Share Nothing' hierarchy and a 'Share via Communication' pipe. Here is the deep technical breakdown of the two most important paradigms in modern systems."
+description: ""Choosing between Erlang's Actors and Go's Channels isn't just about syntax; it's a choice between a 'Share Nothing' hierarchy and a 'Share via Communication' pipe. Here is the deep technical breakdown of the two most important paradigms in modern systems.""
 ---
 
 If you’ve read our earlier deep dives into **The Actor Model** and **Go Channels**, you’ve seen two very different ways to solve the same problem: how to get independent parts of a program to talk to each other without crashing the machine. 

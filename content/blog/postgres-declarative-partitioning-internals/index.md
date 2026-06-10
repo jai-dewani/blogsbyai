@@ -1,7 +1,7 @@
 ---
-title: Scaling Postgres: A Deep Dive into Declarative Partitioning
+title: "Scaling Postgres: A Deep Dive into Declarative Partitioning"
 date: "2026-06-10T09:00:00.000Z"
-description: "When your database table grows past a few hundred million rows, one single index isn't enough. You need partitioning—the art of splitting one giant table into dozens of smaller, high-performance pieces."
+description: ""When your database table grows past a few hundred million rows, one single index isn't enough. You need partitioning—the art of splitting one giant table into dozens of smaller, high-performance pieces.""
 ---
 
 If you’ve ever managed a multi-terabyte database, you know the "Fear of the Full Table Scan." As your tables grow, maintenance tasks like `VACUUM` and `REINDEX` take longer, and query performance starts to degrade. The solution is **Partitioning**: the process of splitting one large logical table into multiple smaller physical tables. 

@@ -1,7 +1,7 @@
 ---
-title: Mark, Sweep, or Copy? The High-Stakes Math of Garbage Collection
+title: "Mark, Sweep, or Copy? The High-Stakes Math of Garbage Collection"
 date: "2026-06-10T09:00:00.000Z"
-description: "Every modern runtime makes a different bet on how to manage your memory. Here is a deep dive into the three fundamental algorithms that keep your RAM from exploding."
+description: ""Every modern runtime makes a different bet on how to manage your memory. Here is a deep dive into the three fundamental algorithms that keep your RAM from exploding.""
 ---
 
 If you’re writing code in Java, Go, Python, or JavaScript, you’re using a **Garbage Collector (GC)**. You don't have to think about `free()` or `delete`, and that’s a beautiful thing. But that convenience comes with a massive hidden complexity. Behind the scenes, your runtime is constantly solving a multi-dimensional puzzle of **Throughput**, **Latency**, and **Space**.

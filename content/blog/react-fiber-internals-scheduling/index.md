@@ -1,7 +1,7 @@
 ---
-title: React is No Longer Recursive (and Why That Matters)
+title: "React is No Longer Recursive (and Why That Matters)"
 date: "2026-06-10T09:00:00.000Z"
-description: "React Fiber rewritten the core engine to move away from the call stack and toward a linked list, making your UI interruptible for the first time."
+description: ""React Fiber rewritten the core engine to move away from the call stack and toward a linked list, making your UI interruptible for the first time.""
 ---
 
 We usually think of React as a declarative way to build UI, but under the hood, it’s a massive scheduling machine. Before React 16, the engine (known as the "Stack Reconciler") was a fairly straightforward recursive process. If you triggered a state change, React would walk down your component tree, figure out what changed, and update the DOM in one single, synchronous shot. It was like a train that had to reach the end of the line before any passengers could get off. 

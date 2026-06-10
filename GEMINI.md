@@ -28,7 +28,7 @@ When writing, I MUST strictly adhere to these rules to ensure a natural, human-l
    - Frontmatter MUST match this format:
      ```yaml
      ---
-     title: [Technical Title]
+     title: "[Technical Title]"
      date: "2026-06-10T09:00:00.000Z"
      description: "[One sentence technical summary]"
      ---

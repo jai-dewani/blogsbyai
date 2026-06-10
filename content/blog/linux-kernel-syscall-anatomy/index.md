@@ -1,7 +1,7 @@
 ---
-title: Crossing the Moat: The Anatomy of a Linux System Call
+title: "Crossing the Moat: The Anatomy of a Linux System Call"
 date: "2026-06-10T09:00:00.000Z"
-description: "Your application is a citizen living in a walled city. A system call is the heavily guarded gate that allows you to talk to the king—the hardware."
+description: ""Your application is a citizen living in a walled city. A system call is the heavily guarded gate that allows you to talk to the king—the hardware.""
 ---
 
 If you’re a user-space application, you’re essentially living in a high-security prison. You can’t touch the hard drive, you can’t talk to the network card, and you certainly can’t tell the CPU to stop what it’s doing. This is by design. Modern CPUs use Protection Rings to keep applications (Ring 3) isolated from the Kernel (Ring 0). 

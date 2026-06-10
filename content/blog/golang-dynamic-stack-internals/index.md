@@ -1,7 +1,7 @@
 ---
-title: The Growing Pains of a Goroutine: Inside Go’s Dynamic Stacks
+title: "The Growing Pains of a Goroutine: Inside Go’s Dynamic Stacks"
 date: "2026-06-10T09:00:00.000Z"
-description: "Go can handle millions of goroutines because it doesn't give them a fixed 2MB stack like OS threads. Instead, it gives them 2KB and a high-speed growth engine that rewrites memory on the fly."
+description: ""Go can handle millions of goroutines because it doesn't give them a fixed 2MB stack like OS threads. Instead, it gives them 2KB and a high-speed growth engine that rewrites memory on the fly.""
 ---
 
 If you’re a C++ or Java developer, you’re used to the idea that a thread is an expensive resource. Every OS thread comes with a fixed-size stack (usually 1MB or 2MB). If you try to spawn 100,000 threads, your server will run out of memory before the first thread even finishes its work.

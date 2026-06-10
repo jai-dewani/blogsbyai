@@ -1,7 +1,7 @@
 ---
-title: The Traffic Cops of Your Disk: Linux I/O Schedulers
+title: "The Traffic Cops of Your Disk: Linux I/O Schedulers"
 date: "2026-06-10T09:00:00.000Z"
-description: "Your NVMe drive can move gigabytes per second, but without the right scheduler in the kernel, a single background backup could still make your browser stutter. Here is how Linux manages the line at the disk."
+description: ""Your NVMe drive can move gigabytes per second, but without the right scheduler in the kernel, a single background backup could still make your browser stutter. Here is how Linux manages the line at the disk.""
 ---
 
 If you’ve ever noticed your computer becoming sluggish while copying a large file, you’ve felt the impact of **I/O Contention**. Even with modern, high-speed SSDs, the disk is still a bottleneck compared to the CPU and RAM. To manage this, the Linux kernel uses **I/O Schedulers** (also known as Elevators) to decide which process gets to read or write to the disk next.

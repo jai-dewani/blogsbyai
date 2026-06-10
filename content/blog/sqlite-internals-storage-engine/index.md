@@ -1,7 +1,7 @@
 ---
-title: The Modular Miracle: Inside SQLite’s Storage Engine
+title: "The Modular Miracle: Inside SQLite’s Storage Engine"
 date: "2026-06-10T09:00:00.000Z"
-description: "SQLite isn't just a file; it's a multi-layered virtual machine and storage engine that manages to be more reliable than most 'enterprise' databases."
+description: ""SQLite isn't just a file; it's a multi-layered virtual machine and storage engine that manages to be more reliable than most 'enterprise' databases.""
 ---
 
 We often take SQLite for granted. It’s the "little database that could," living inside our phones, browsers, and even the flight software of the Airbus A350. We treat it like a simple library that reads a file, but under the hood, SQLite is a masterclass in modular software architecture. It’s a complete database engine that implements a custom virtual machine, a sophisticated page cache, and a B-Tree storage system, all within a single C library.

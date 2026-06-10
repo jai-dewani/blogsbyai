@@ -1,7 +1,7 @@
 ---
-title: The Great Unifier: Inside the Linux Virtual File System (VFS)
+title: "The Great Unifier: Inside the Linux Virtual File System (VFS)"
 date: "2026-06-10T09:00:00.000Z"
-description: "Linux treats everything as a file, and the VFS is the reason why your code doesn’t care if it’s reading from a local disk, a network share, or a thermal sensor."
+description: ""Linux treats everything as a file, and the VFS is the reason why your code doesn’t care if it’s reading from a local disk, a network share, or a thermal sensor.""
 ---
 
 One of the most powerful abstractions in the Linux kernel is the **Virtual File System (VFS)**. It’s the architectural glue that allows a user-space application to use the same `read()` and `write()` system calls to interact with a staggering variety of data sources. 

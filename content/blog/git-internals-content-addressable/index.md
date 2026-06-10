@@ -1,7 +1,7 @@
 ---
-title: Git is Not a Version Control System (It’s a Content-Addressable Filesystem)
+title: "Git is Not a Version Control System (It’s a Content-Addressable Filesystem)"
 date: "2026-06-10T09:00:00.000Z"
-description: "Most people think Git is about branches and commits, but under the hood, it’s just a simple key-value store where the key is a hash of your data."
+description: ""Most people think Git is about branches and commits, but under the hood, it’s just a simple key-value store where the key is a hash of your data.""
 ---
 
 We use Git every day, but most developers treat it like a set of magic spells. We memorize `git commit`, `git push`, and the occasional `git merge --abort` when things go sideways. But Git is actually one of the most elegantly simple pieces of software ever written. If you strip away the user interface, you’re left with a **Content-Addressable Filesystem**. 

@@ -1,7 +1,7 @@
 ---
-title: The Distributed Brain: Why Kubernetes is Hard to Kill
+title: "The Distributed Brain: Why Kubernetes is Hard to Kill"
 date: "2026-06-10T09:00:00.000Z"
-description: "Kubernetes isn't a single program; it's a collection of decoupled loops that communicate through a single source of truth, making it the most resilient system in your stack."
+description: ""Kubernetes isn't a single program; it's a collection of decoupled loops that communicate through a single source of truth, making it the most resilient system in your stack.""
 ---
 
 When you run `kubectl apply`, it feels like you're giving a direct order to a machine. You tell it you want three replicas of your application, and a few seconds later, they appear. But Kubernetes doesn't work the way traditional systems do. It doesn't have a "master" that tells the nodes what to do. Instead, it’s a distributed system where components are almost entirely decoupled, and the "intelligence" of the cluster is an emergent property of hundreds of independent "Reconciliation Loops."

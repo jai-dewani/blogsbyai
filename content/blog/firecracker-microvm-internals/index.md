@@ -1,7 +1,7 @@
 ---
-title: The Rise of the MicroVM: Inside Firecracker Internals
+title: "The Rise of the MicroVM: Inside Firecracker Internals"
 date: "2026-06-10T09:00:00.000Z"
-description: "How does AWS Lambda start thousands of isolated environments in milliseconds? The secret is Firecracker—a minimalist VMM that stripped away everything but the essential hardware logic."
+description: ""How does AWS Lambda start thousands of isolated environments in milliseconds? The secret is Firecracker—a minimalist VMM that stripped away everything but the essential hardware logic.""
 ---
 
 In the world of cloud computing, we’ve long faced a brutal trade-off: do you want the **Isolation** of a Virtual Machine (VM) or the **Speed** of a Container? Traditional VMs are slow to boot and heavy on RAM because they emulate ancient hardware like floppy drives and VGA cards. Containers are fast, but they share the host's kernel, which is a massive security risk in multi-tenant environments.

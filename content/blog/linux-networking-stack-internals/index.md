@@ -1,7 +1,7 @@
 ---
-title: From Wire to Socket: The Lifecycle of a Linux Packet
+title: "From Wire to Socket: The Lifecycle of a Linux Packet"
 date: "2026-06-10T09:00:00.000Z"
-description: "Your server can handle millions of packets per second, but the journey of a single byte from the network card to your application is a high-speed obstacle course of interrupts, buffers, and protocol logic."
+description: ""Your server can handle millions of packets per second, but the journey of a single byte from the network card to your application is a high-speed obstacle course of interrupts, buffers, and protocol logic.""
 ---
 
 When you run a high-performance web server, you're essentially trusting the Linux kernel to handle a deluge of electrical signals hitting your network card (NIC). Each signal represents a fragment of data—a packet—that must be validated, de-encapsulated, and routed to the correct application in microseconds. 

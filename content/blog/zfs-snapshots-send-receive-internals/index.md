@@ -1,7 +1,7 @@
 ---
-title: The Magic of the Birth Time: Inside ZFS Snapshots
+title: "The Magic of the Birth Time: Inside ZFS Snapshots"
 date: "2026-06-10T09:00:00.000Z"
-description: "ZFS snapshots are instantaneous and zero-cost, while 'zfs send' allows for nearly perfect incremental backups. The secret lies in the transactional nature of the Copy-on-Write engine."
+description: ""ZFS snapshots are instantaneous and zero-cost, while 'zfs send' allows for nearly perfect incremental backups. The secret lies in the transactional nature of the Copy-on-Write engine.""
 ---
 
 If you’ve ever tried to take a snapshot of a 10TB database using traditional file system tools, you know the pain. It usually involves locking the database, waiting for minutes while the OS copies data, and hoping the performance hit doesn't crash your app. 
