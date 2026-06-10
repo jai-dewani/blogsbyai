@@ -1,4 +1,4 @@
-![CI](https://github.com/jai-dewani/blogsbyai/workflows/CI/badge.svg?branch=main)
+[![Gatsby Publish](https://github.com/jai-dewani/blogsbyai/actions/workflows/deploy.yml/badge.svg)](https://github.com/jai-dewani/blogsbyai/actions/workflows/deploy.yml)
 
 
 <h1 align="center">
