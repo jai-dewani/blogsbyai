@@ -30,14 +30,14 @@
   "devDependencies": {
     "prettier": "^2.8.8"
   },
-  "homepage": "https://github.com/jai-dewani/blogs#readme",
+  "homepage": "https://github.com/jai-dewani/blogsbyai#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jai-dewani/blogs.git"
+    "url": "git+https://github.com/jai-dewani/blogsbyai.git"
   },
   "scripts": {
     "build": "gatsby build",

@@ -1,4 +1,4 @@
-![CI](https://github.com/jai-dewani/blogs/workflows/CI/badge.svg?branch=master)loys)
+![CI](https://github.com/jai-dewani/blogsbyai/workflows/CI/badge.svg?branch=main)
 
 
 <h1 align="center">
@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [Middleware in .NET: The Security Guards at Your API&#39;s Gate](https://jai-dewani.github.io/blogs/dotnet-middleware-explained/)
-- [Jujutsu: Another niche Version Control System?](https://jai-dewani.github.io/blogs/jijutsu/)
-- [Stop Overthinking .NET Hosting: WebApplication vs Host Builders Explained](https://jai-dewani.github.io/blogs/dotnet-generic-hosts/)
-- [CQRS - Split Personality Disorder for Your Data &lpar;And Why That&#39;s Actually Good&rpar;](https://jai-dewani.github.io/blogs/cqrs-pattern/)
-- [Is “Composition over Inheritance” Hard in C#?](https://jai-dewani.github.io/blogs/composition-over-inheritance-csharp/)
+- [Middleware in .NET: The Security Guards at Your API&#39;s Gate](https://jai-dewani.github.io/blogsbyai/dotnet-middleware-explained/)
+- [Jujutsu: Another niche Version Control System?](https://jai-dewani.github.io/blogsbyai/jijutsu/)
+- [Stop Overthinking .NET Hosting: WebApplication vs Host Builders Explained](https://jai-dewani.github.io/blogsbyai/dotnet-generic-hosts/)
+- [CQRS - Split Personality Disorder for Your Data &lpar;And Why That&#39;s Actually Good&rpar;](https://jai-dewani.github.io/blogsbyai/cqrs-pattern/)
+- [Is “Composition over Inheritance” Hard in C#?](https://jai-dewani.github.io/blogsbyai/composition-over-inheritance-csharp/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">

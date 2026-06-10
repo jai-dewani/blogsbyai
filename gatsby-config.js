@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/blogs",
+  pathPrefix: "/blogsbyai",
   siteMetadata: {
     title: `Blogs by JaiD`,
     author: {
@@ -7,7 +7,7 @@ module.exports = {
       summary: `is a Software Engineer at Carl Zeiss, who loves to learn and build cool things`,
     },
     description: `A personal blog of Jai.`,
-    siteUrl: `https://jai-dewani.github.io/blogs/`,
+    siteUrl: `https://jai-dewani.github.io/blogsbyai/`,
     social: {
       twitter: `jai_dewani`,
     },
