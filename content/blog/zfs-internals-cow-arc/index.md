@@ -1,7 +1,7 @@
 ---
 title: "The Last Word in File Systems: A Deep Dive into ZFS Internals"
 date: "2026-06-10T09:00:00.000Z"
-description: ""ZFS isn't just a file system; it’s a self-healing, transactional storage architect that treats your data with more respect than any other system on the planet.""
+description: "ZFS isn't just a file system; it’s a self-healing, transactional storage architect that treats your data with more respect than any other system on the planet."
 ---
 
 If you’re serious about data integrity, you’ve eventually found your way to **ZFS (Zettabyte File System)**. Originally developed by Sun Microsystems, ZFS was a radical "clean-slate" redesign of storage. It abandoned the 40-year-old assumptions of how file systems should work and replaced them with a unified architecture that merges the roles of a **File System** and a **Logical Volume Manager**.

@@ -1,7 +1,7 @@
 ---
 title: "The Last Resort: Inside the Linux OOM Killer"
 date: "2026-06-10T09:00:00.000Z"
-description: ""When your server runs out of memory, it doesn't just crash. It starts making high-stakes, life-and-death decisions about which process to sacrifice to save the system.""
+description: "When your server runs out of memory, it doesn't just crash. It starts making high-stakes, life-and-death decisions about which process to sacrifice to save the system."
 ---
 
 If you’ve ever managed a Linux server, you’ve likely seen the message: `Out of memory: Kill process 1234 (mysqld)`. It’s a gut-punch for any DBA, but it’s also a sign that your kernel just did its job. 

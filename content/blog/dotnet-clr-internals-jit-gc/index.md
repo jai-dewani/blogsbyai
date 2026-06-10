@@ -1,7 +1,7 @@
 ---
 title: "Under the Hood of the CLR: JIT, GC, and the LOH"
 date: "2026-06-10T09:00:00.000Z"
-description: ""The .NET Common Language Runtime (CLR) is a sophisticated execution engine that manages everything from on-the-fly compilation to generational memory reclamation. Here is how it turns your C# into high-performance machine code.""
+description: "The .NET Common Language Runtime (CLR) is a sophisticated execution engine that manages everything from on-the-fly compilation to generational memory reclamation. Here is how it turns your C# into high-performance machine code."
 ---
 
 If you’re a .NET developer, you spend most of your time in the comfort of high-level C# abstractions. You use `async/await`, LINQ, and dependency injection without ever needing to touch a pointer or manage a byte of memory. This luxury is provided by the **Common Language Runtime (CLR)**—the high-performance heart of .NET. 

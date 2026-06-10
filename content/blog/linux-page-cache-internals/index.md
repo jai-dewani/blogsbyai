@@ -1,7 +1,7 @@
 ---
 title: "The Linux Page Cache: The Silent Engine of Performance"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Linux never lets your RAM go to waste. The Page Cache is a sophisticated, transparent buffer that turns slow disk I/O into high-speed memory operations, making your system feel faster than its hardware should allow.""
+description: "Linux never lets your RAM go to waste. The Page Cache is a sophisticated, transparent buffer that turns slow disk I/O into high-speed memory operations, making your system feel faster than its hardware should allow."
 ---
 
 If you’ve ever run the `free -m` command and been alarmed that your server has "zero" free memory, you’ve likely been tricked by the **Linux Page Cache**. In Linux, "free" memory is "wasted" memory. The kernel is obsessively pragmatic: it will use every spare byte of RAM to cache files from the disk, ensuring that the next time you need that data, it’s served at the speed of electricity rather than the speed of spinning rust or flash cells.

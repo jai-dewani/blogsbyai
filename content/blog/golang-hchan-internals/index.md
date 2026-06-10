@@ -1,7 +1,7 @@
 ---
 title: "The Hchan Structure: How Go Channels Work Under the Hood"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Go channels are often treated like magic pipes, but their internal implementation is a sophisticated coordination engine that involves heap-allocated structures, wait queues, and direct memory copies.""
+description: "Go channels are often treated like magic pipes, but their internal implementation is a sophisticated coordination engine that involves heap-allocated structures, wait queues, and direct memory copies."
 ---
 
 If you’ve written any Go, you’ve used channels. They are the "secret sauce" of Go's concurrency model, following the mantra: "Do not communicate by sharing memory; instead, share memory by communicating." But while the `<-` syntax is beautiful and simple, the machinery behind it is incredibly complex. 

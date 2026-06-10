@@ -1,7 +1,7 @@
 ---
 title: "The Binary Breakdown: Inside HTTP/2 Streams and Flow Control"
 date: "2026-06-10T09:00:00.000Z"
-description: ""HTTP/2 isn't just faster because it’s binary; it’s faster because it manages its own internal traffic. Here is a deep dive into the streams, frames, and credit-based flow control that fixed the web.""
+description: "HTTP/2 isn't just faster because it’s binary; it’s faster because it manages its own internal traffic. Here is a deep dive into the streams, frames, and credit-based flow control that fixed the web."
 ---
 
 If you’ve read our earlier deep dive into **HPACK**, you know how HTTP/2 saves bandwidth by compressing headers. But the real magic of HTTP/2 is how it moves the data itself. In HTTP/1.1, the web was a collection of single-lane roads. If you wanted ten files, you either waited for them one by one or opened ten separate roads (TCP connections). 

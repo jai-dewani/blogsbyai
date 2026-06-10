@@ -1,7 +1,7 @@
 ---
 title: "The Internet’s Phonebook: A Deep Dive into DNS Internals"
 date: "2026-06-10T09:00:00.000Z"
-description: ""DNS is a hierarchical, distributed database that translates human-readable domain names into IP addresses, and its internals are a masterclass in caching, delegation, and trust.""
+description: "DNS is a hierarchical, distributed database that translates human-readable domain names into IP addresses, and its internals are a masterclass in caching, delegation, and trust."
 ---
 
 Most people describe the **Domain Name System (DNS)** as the "phonebook of the internet." It’s a simple enough analogy, but it hides the staggering complexity of how the internet actually finds itself. DNS is not a single database sitting in a room somewhere; it is a global, hierarchical, and highly resilient distributed system that handles trillions of queries every day with remarkable speed.

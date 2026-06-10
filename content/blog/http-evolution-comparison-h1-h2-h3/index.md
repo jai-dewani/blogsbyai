@@ -1,7 +1,7 @@
 ---
 title: "The Road to HTTP/3: A Technical Showdown"
 date: "2026-06-10T09:00:00.000Z"
-description: ""From text-based sprawl to binary precision and UDP-based speed, the evolution of HTTP is a story of engineers fighting the physical limits of the network. Here is how H1.1, H2, and H3 actually compare under the hood.""
+description: "From text-based sprawl to binary precision and UDP-based speed, the evolution of HTTP is a story of engineers fighting the physical limits of the network. Here is how H1.1, H2, and H3 actually compare under the hood."
 ---
 
 If you’ve been on the web since the 90s, you’ve lived through three major eras of the HTTP protocol. But while we mostly care about the end result (pages loading faster), the architectural shifts between **HTTP/1.1**, **HTTP/2**, and **HTTP/3** represent some of the most difficult engineering trade-offs in the history of the internet. 

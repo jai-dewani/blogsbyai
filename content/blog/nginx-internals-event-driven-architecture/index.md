@@ -1,7 +1,7 @@
 ---
 title: "The C10K Master: Inside Nginx’s Event-Driven Engine"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Nginx isn't just a web server; it's a high-performance orchestration of processes and events that redefined how we handle thousands of concurrent connections on a single machine.""
+description: "Nginx isn't just a web server; it's a high-performance orchestration of processes and events that redefined how we handle thousands of concurrent connections on a single machine."
 ---
 
 In the late 90s, the "C10K problem" was the ultimate engineering challenge: how do you get a single web server to handle 10,000 concurrent connections? Traditional servers like Apache (at the time) failed because they spawned a new thread or process for every connection. If you have 10,000 threads, your CPU spends all its time switching between them rather than doing useful work.

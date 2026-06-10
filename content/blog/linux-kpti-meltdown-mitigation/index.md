@@ -1,7 +1,7 @@
 ---
 title: "The Price of Paranoia: Inside Kernel Page Table Isolation (KPTI)"
 date: "2026-06-10T09:00:00.000Z"
-description: ""In 2018, a hardware flaw called Meltdown broke the fundamental promise of CPU security. Linux responded with KPTI—a massive architectural change that made every system call more expensive in the name of safety.""
+description: "In 2018, a hardware flaw called Meltdown broke the fundamental promise of CPU security. Linux responded with KPTI—a massive architectural change that made every system call more expensive in the name of safety."
 ---
 
 If you’ve been managing Linux servers for a while, you might remember a sudden, global performance drop in early 2018. Databases slowed down, network throughput dipped, and CPU usage spiked. This wasn't a software bug; it was the "Meltdown Tax." To mitigate a critical flaw in almost every modern CPU, the Linux kernel team had to deploy **Kernel Page Table Isolation (KPTI)**—a change that fundamentally altered how the operating system talks to the hardware.

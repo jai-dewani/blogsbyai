@@ -1,7 +1,7 @@
 ---
 title: "The Container Illusion: Namespaces and Cgroups Internals"
 date: "2026-06-10T09:00:00.000Z"
-description: ""A container is not a real thing; it’s a standard Linux process wearing a VR headset (Namespaces) and living on a strict allowance (Cgroups).""
+description: "A container is not a real thing; it’s a standard Linux process wearing a VR headset (Namespaces) and living on a strict allowance (Cgroups)."
 ---
 
 If you ask a developer what a container is, they’ll probably talk about Docker or images. But if you ask a Linux kernel engineer, they’ll tell you that a container is a ghost. There is no such thing as a "container" object in the Linux kernel source code. 

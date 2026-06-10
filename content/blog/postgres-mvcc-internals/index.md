@@ -1,7 +1,7 @@
 ---
 title: "Readers Never Block Writers: The Magic of Postgres MVCC"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Postgres manages to handle thousands of concurrent users without locking your tables, but it pays for that speed by leaving a trail of 'ghost' data behind.""
+description: "Postgres manages to handle thousands of concurrent users without locking your tables, but it pays for that speed by leaving a trail of 'ghost' data behind."
 ---
 
 If you’ve ever used a database that used "table-level locking," you know the pain of a single slow report blocking every other user in the building. Postgres avoids this nightmare through a system called **Multi-Version Concurrency Control (MVCC)**. The core philosophy is deceptively simple: instead of forcing people to wait for a lock, Postgres just gives everyone their own version of the data. 

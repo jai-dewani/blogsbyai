@@ -1,7 +1,7 @@
 ---
 title: "The Fair, the Fast, and the Deadline: The Linux Scheduler Evolution"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Linux just replaced its legendary Completely Fair Scheduler (CFS) with a new mathematically sound algorithm called EEVDF. Here is why the change was necessary.""
+description: "Linux just replaced its legendary Completely Fair Scheduler (CFS) with a new mathematically sound algorithm called EEVDF. Here is why the change was necessary."
 ---
 
 If you’re reading this on a Linux machine, the kernel is currently making thousands of high-stakes decisions every second about which process gets to use your CPU. Should it be your browser? Your music player? A background security update? For fifteen years, these decisions were handled by the **Completely Fair Scheduler (CFS)**. It was a masterpiece of engineering that balanced throughput and fairness. 

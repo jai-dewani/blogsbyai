@@ -1,7 +1,7 @@
 ---
 title: "The Log-Structured File System: Writing Everything as a Log"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Traditional file systems waste time waiting for the disk to spin. LFS proved that if you treat your entire hard drive like a single, never-ending log, you can achieve nearly 100% write efficiency.""
+description: "Traditional file systems waste time waiting for the disk to spin. LFS proved that if you treat your entire hard drive like a single, never-ending log, you can achieve nearly 100% write efficiency."
 ---
 
 If you’ve read our earlier deep dives into **LSM Trees** (the engine of modern databases) or **ZFS** (the unkillable file system), you’ve seen a recurring theme: **Append-Only is faster than Update-In-Place.** 

@@ -1,7 +1,7 @@
 ---
 title: "The Infinite Log Problem: Raft Snapshots and Compaction"
 date: "2026-06-10T09:00:00.000Z"
-description: "" distributed systems agreement is great, but a log that grows forever is a ticking time bomb for your disk. Raft’s snapshot mechanism is the pressure valve that keeps the cluster from exploding.""
+description: " distributed systems agreement is great, but a log that grows forever is a ticking time bomb for your disk. Raft’s snapshot mechanism is the pressure valve that keeps the cluster from exploding."
 ---
 
 If you’ve read our earlier deep dive into **Raft Consensus**, you know that the "truth" in a distributed system is stored as a sequence of commands in a log. Every time you change a value, a new entry is appended. The problem is obvious: over time, that log will grow until it consumes every byte of disk space on your server.

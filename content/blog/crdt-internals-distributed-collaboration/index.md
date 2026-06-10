@@ -1,7 +1,7 @@
 ---
 title: "The Math of Collaboration: A Deep Dive into CRDTs"
 date: "2026-06-10T09:00:00.000Z"
-description: ""How do tools like Figma and Google Docs allow thousands of people to edit the same data at the same time without a central server deciding who is 'right'? The answer lies in the elegant mathematics of CRDTs.""
+description: "How do tools like Figma and Google Docs allow thousands of people to edit the same data at the same time without a central server deciding who is 'right'? The answer lies in the elegant mathematics of CRDTs."
 ---
 
 If you’ve ever tried to build a collaborative app, you’ve hit the wall of **Conflict Resolution**. What happens when two users change the same word at the exact same millisecond? In the old days, we relied on "Locking" (only one person can edit at a time) or "Last Writer Wins" (the second person’s work is simply deleted). Both are terrible user experiences.

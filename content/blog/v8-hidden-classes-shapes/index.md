@@ -1,7 +1,7 @@
 ---
 title: "Shapes and Shadows: How V8 Turns JavaScript into C++"
 date: "2026-06-10T09:00:00.000Z"
-description: ""JavaScript objects are just dynamic dictionaries, right? Not if the V8 engine can help it. Under the hood, V8 is busy building hidden classes to trick your CPU into thinking it's running static code.""
+description: "JavaScript objects are just dynamic dictionaries, right? Not if the V8 engine can help it. Under the hood, V8 is busy building hidden classes to trick your CPU into thinking it's running static code."
 ---
 
 If you’ve ever looked at a high-performance C++ program, you’ll notice it uses "structs" or "classes" with a fixed layout. When the CPU needs to access a member variable, it knows exactly where it is in memory. It’s an offset: `base_address + 8`. This is incredibly fast. 

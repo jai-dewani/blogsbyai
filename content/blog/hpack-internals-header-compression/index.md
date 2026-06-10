@@ -1,7 +1,7 @@
 ---
 title: "The Silent Squeezer: How HPACK Compresses the Web"
 date: "2026-06-10T09:00:00.000Z"
-description: ""HTTP/1.1 wasted massive amounts of bandwidth by sending the same headers over and over. HTTP/2 fixed this with HPACK—a stateful, secure compression engine that can shrink your headers by 95%.""
+description: "HTTP/1.1 wasted massive amounts of bandwidth by sending the same headers over and over. HTTP/2 fixed this with HPACK—a stateful, secure compression engine that can shrink your headers by 95%."
 ---
 
 If you’ve ever looked at a raw HTTP/1.1 request, you’ve seen the waste. Every single time you click a link, your browser sends the exact same `User-Agent`, the same `Accept` headers, and the same massive `Cookie`. For a tiny 100-byte JSON response, you might be sending 2KB of redundant headers. On a slow mobile network, this is a performance killer.

@@ -1,7 +1,7 @@
 ---
 title: "The Merkle Patricia Trie: The Brain of Ethereum"
 date: "2026-06-10T09:00:00.000Z"
-description: ""How can thousands of computers agree on the exact balance of millions of accounts without sharing a single database? The answer lies in the Modified Merkle Patricia Trie—a data structure that is part dictionary, part compression engine, and part cryptographic proof.""
+description: "How can thousands of computers agree on the exact balance of millions of accounts without sharing a single database? The answer lies in the Modified Merkle Patricia Trie—a data structure that is part dictionary, part compression engine, and part cryptographic proof."
 ---
 
 If you’ve read our earlier deep dives into **Merkle Trees** and **EVM Architecture**, you know that Ethereum is a massive, deterministic state machine. But the "State" of Ethereum isn't a flat file or a simple SQL table. It is a highly sophisticated data structure called the **Modified Merkle Patricia Trie (MPT)**. 

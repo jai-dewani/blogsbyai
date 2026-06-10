@@ -1,7 +1,7 @@
 ---
 title: "The Immutable Upgrade: Inside Smart Contract Proxies"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Blockchains are immutable, yet we upgrade smart contracts every day. The secret is the Proxy Pattern—a sophisticated use of the DELEGATECALL opcode that separates a contract’s state from its logic.""
+description: "Blockchains are immutable, yet we upgrade smart contracts every day. The secret is the Proxy Pattern—a sophisticated use of the DELEGATECALL opcode that separates a contract’s state from its logic."
 ---
 
 The greatest paradox of Web3 development is the need for **Upgradability** in a world of **Immutability**. Once you deploy a smart contract to Ethereum, the code is fixed forever. If you find a bug or want to add a feature, you can't just "overwrite" the code. 

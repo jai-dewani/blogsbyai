@@ -1,7 +1,7 @@
 ---
 title: "WebAssembly Internals: The Universal Sandbox"
 date: "2026-06-10T09:00:00.000Z"
-description: ""WebAssembly isn't just for the browser; it’s a high-performance, stack-based virtual machine that provides a secure sandbox for untrusted code, from the edge to the server.""
+description: "WebAssembly isn't just for the browser; it’s a high-performance, stack-based virtual machine that provides a secure sandbox for untrusted code, from the edge to the server."
 ---
 
 If you’ve been following the world of high-performance web apps, you’ve likely seen **WebAssembly (Wasm)** in action. It’s the reason why Google Earth, Photoshop, and complex 3D games can run in your browser at near-native speeds. But Wasm is much more than a "faster JavaScript." It is a fundamental shift in how we think about code execution and security.

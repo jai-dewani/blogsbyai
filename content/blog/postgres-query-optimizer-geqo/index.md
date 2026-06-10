@@ -1,7 +1,7 @@
 ---
 title: "Why Postgres Thinks Your Join is a Traveling Salesman Problem"
 date: "2026-06-10T09:00:00.000Z"
-description: ""When your SQL query gets too complex, PostgreSQL stops trying to be perfect and starts acting like an evolving organism.""
+description: "When your SQL query gets too complex, PostgreSQL stops trying to be perfect and starts acting like an evolving organism."
 ---
 
 We've all written that one monster SQL query with twelve or thirteen joins and just hoped for the best. Most of the time, we treat the database like a black box that just works. We assume that because we used the correct syntax, the engine will find the most efficient way to fetch our data. But if you've ever noticed your query plan suddenly shift from "optimized" to "weirdly inconsistent" as you add more tables, you've probably run into the Genetic Query Optimizer (GEQO). It’s one of the most fascinating and misunderstood parts of the Postgres internals. This is the part of the source code where the database stops being a rigid calculator and starts acting like a biological simulator.

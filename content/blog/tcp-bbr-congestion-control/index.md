@@ -1,7 +1,7 @@
 ---
 title: "The Battle of the Pipe: Why BBR is the Future of TCP"
 date: "2026-06-10T09:00:00.000Z"
-description: ""We’ve been using packet loss to manage network speed since the 80s, but Google’s BBR algorithm proves that model-based congestion control is the only way to fix the modern internet.""
+description: "We’ve been using packet loss to manage network speed since the 80s, but Google’s BBR algorithm proves that model-based congestion control is the only way to fix the modern internet."
 ---
 
 If you’ve ever wondered why your 1Gbps fiber connection sometimes feels slow when you’re accessing a server across the country, you’ve run into the fundamental limits of **Congestion Control**. For decades, the internet has relied on a "break-it-to-fix-it" philosophy. Algorithms like **CUBIC** (the current default in Linux) only slow down when they see a packet drop. 

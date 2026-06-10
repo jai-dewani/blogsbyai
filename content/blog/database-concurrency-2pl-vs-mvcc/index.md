@@ -1,7 +1,7 @@
 ---
 title: "The Battle for Concurrency: 2PL vs. MVCC"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Choosing how your database handles multiple users is a fundamental architectural decision. Do you want the pessimistic security of locks (2PL) or the optimistic speed of versioning (MVCC)?""
+description: "Choosing how your database handles multiple users is a fundamental architectural decision. Do you want the pessimistic security of locks (2PL) or the optimistic speed of versioning (MVCC)?"
 ---
 
 If you’ve ever built a system where two people might try to change the same value at the same time, you’ve faced the **Concurrency Problem**. In the world of databases, there are two primary ways to solve this, and the choice you make defines the performance and reliability of your entire stack. 

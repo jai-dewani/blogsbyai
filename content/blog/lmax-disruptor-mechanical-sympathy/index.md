@@ -1,7 +1,7 @@
 ---
 title: "Mechanical Sympathy: The LMAX Disruptor and the End of Locks"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Traditional queues are too slow for high-frequency trading. The LMAX Disruptor proved that by understanding how the hardware actually works, we can build messaging systems that are orders of magnitude faster.""
+description: "Traditional queues are too slow for high-frequency trading. The LMAX Disruptor proved that by understanding how the hardware actually works, we can build messaging systems that are orders of magnitude faster."
 ---
 
 In the world of high-frequency trading, every microsecond is a liability. When you’re trying to process millions of orders per second, the traditional tools of concurrency—locks, mutexes, and standard blocking queues—become your biggest bottlenecks. These tools are built on abstractions that prioritize programmer convenience over hardware reality. 

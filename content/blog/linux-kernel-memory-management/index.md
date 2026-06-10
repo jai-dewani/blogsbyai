@@ -1,7 +1,7 @@
 ---
 title: "The Buddy and the Slab: How Linux Manages Your RAM"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Linux memory management is a multi-layered masterpiece that balances the needs of high-level processes with the brutal reality of hardware fragmentation.""
+description: "Linux memory management is a multi-layered masterpiece that balances the needs of high-level processes with the brutal reality of hardware fragmentation."
 ---
 
 If you’ve ever looked at a memory graph in your dashboard and wondered how the Linux kernel keeps track of billions of bytes without losing its mind, you’re looking at one of the most sophisticated pieces of engineering in existence. The kernel doesn't just "allocate memory." It manages a complex hierarchy of abstractions, from virtual address spaces to physical page blocks, using two main workhorses: the **Buddy System** and the **Slab Allocator**.

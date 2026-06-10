@@ -1,7 +1,7 @@
 ---
 title: "The Protocol That Glues the Internet Together: A BGP Deep Dive"
 date: "2026-06-10T09:00:00.000Z"
-description: ""BGP is the only protocol that knows the map of the entire world. It is a path-vector masterpiece that manages the connections between thousands of independent networks.""
+description: "BGP is the only protocol that knows the map of the entire world. It is a path-vector masterpiece that manages the connections between thousands of independent networks."
 ---
 
 If you think of the internet as a collection of cities, the roads inside those cities are managed by internal protocols like OSPF or IS-IS. But the highways that connect those cities across continents and oceans are managed by a single, monolithic protocol: the **Border Gateway Protocol (BGP)**. 

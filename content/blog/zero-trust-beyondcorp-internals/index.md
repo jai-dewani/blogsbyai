@@ -1,7 +1,7 @@
 ---
 title: "Beyond the Perimeter: A Deep Dive into Zero Trust Architecture"
 date: "2026-06-10T09:00:00.000Z"
-description: ""The VPN is a relic of a bygone era. In a modern, hostile internet, we need Zero Trust—an architecture where the network is invisible, and access is a constant, calculated gamble based on identity and context.""
+description: "The VPN is a relic of a bygone era. In a modern, hostile internet, we need Zero Trust—an architecture where the network is invisible, and access is a constant, calculated gamble based on identity and context."
 ---
 
 For thirty years, corporate security was built on the **"Castle and Moat"** model. You built a high wall (the firewall) around your office, and if someone wanted to get in, they used a drawbridge (the VPN). But once you were inside the castle, you were trusted. You could walk into the kitchen, the library, or the treasury. 

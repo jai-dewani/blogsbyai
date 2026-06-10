@@ -1,7 +1,7 @@
 ---
 title: "Postgres Indexing: The Architecture of Rapid Retrieval"
 date: "2026-06-10T09:00:00.000Z"
-description: ""Most developers stop at B-Tree, but the real power of Postgres lies in its specialized index types like GIN, GiST, and BRIN that can make your TB-scale queries feel like local lookups.""
+description: "Most developers stop at B-Tree, but the real power of Postgres lies in its specialized index types like GIN, GiST, and BRIN that can make your TB-scale queries feel like local lookups."
 ---
 
 If you’ve ever optimized a database, you know that an index is the difference between a query that takes three seconds and one that takes three milliseconds. Most of us default to the standard **B-Tree** index and never look back. But Postgres is unique because its indexing system is **extensible**. It offers a toolbox of specialized data structures designed for everything from geospatial coordinates to massive, multi-terabyte log tables.
